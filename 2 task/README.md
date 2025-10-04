@@ -43,3 +43,7 @@ python table.py --path people.txt --col-a Рост --col-b Рост_отца --n
 ## Гистограмма
 - График появится в папке пользователя рядом с файлом проекта со всеми данными касательно размерной таблицы
 
+- Пример гистограммы:
+<img width="1466" height="822" alt="image" src="https://github.com/user-attachments/assets/066d912a-f14b-4eee-ba5d-061d30e68499" />
+
+
