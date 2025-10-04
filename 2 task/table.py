@@ -16,8 +16,8 @@ def ParseArgs():
 
     # пути и разделители
     grp_io = p.add_argument_group("Ввод/Вывод")
-    grp_io.add_argument("--path", required=True, help="Путь к входному TXT файлу")
-    grp_io.add_argument("--sep", default=r"\s+", help="Разделитель столбцов (regex)")
+    grp_io.add_argument("--path", required=True, help="Путь к входному txt файлу")
+    grp_io.add_argument("--sep", default=r"\s+", help="Разделитель столбцов, по умолчанию пробел/tab")
     grp_io.add_argument("--save-plot", default=None, help="Путь для сохранения графика png")
 
     # имена столбцов
